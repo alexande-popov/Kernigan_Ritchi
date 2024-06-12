@@ -12,7 +12,7 @@ void reverse(char s[])
 	}
 }
 
-void itoa(long long int n, char s[])
+void itoa(int n, char s[])
 {
 	int i, sign;
 
@@ -35,8 +35,23 @@ void itoa(long long int n, char s[])
 int main()
 {
 	char s[] = "";
-	itoa(123, s);
-	printf("string: %s", s);
+	int n;
+
+	n = 123;
+	itoa(n, s);
+	printf("%d string: %s\n", n, s);
+
+	n = 2147483647;
+	itoa(n, s);
+	printf("%d string: %s\n", n, s);
+
+	n = -2147483647;
+	itoa(n, s);
+	printf("%d string: %s\n", n, s);
+
+	n = -2147483648;
+	itoa(n, s);
+	printf("%d string: %s\n", n, s);
 
 	return 0;
 }
