@@ -14,3 +14,5 @@
 Ссылки на текст:
 - [1](https://www.rulit.me/books/yazyk-programmirovaniya-si-izdanie-3-e-ispravlennoe-read-167014-1.html)
 - [2](http://www.iakovlev.org/index.html?p=1351&m=1&l1=5)
+
+Предметный указатель: [тут](./subject_index.md)
