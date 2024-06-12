@@ -14,7 +14,10 @@
 ## H
 * `hello, world`: [Упр. 1.1](./ch1/README.md) и [решение](./ch1/tasks/1.1.c);
 ## I
+* `int`, тип: [диапазон](./ch2/tasks/2.1.c);
 * `itoa`, функция: [3.6](./ch3/README.md), [код](./ch3/examples/3.6_itoa.c);
+## L
+* `limits`, библиотека: [Упр 2.1](./ch2/tasks/2.1.c)
 ## M
 * `main`: теория [1.1](./ch1/content/1.1.md)
 ## O
